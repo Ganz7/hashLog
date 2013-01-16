@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">hashLog</string>
+    
+    <string name="home_action">Home</string>
+    <string name="newlog_action">New Log</string>
+    <string name="search_action">Search</string>
+    
+    <string name="empty"></string>
+    <string name="hash">#</string>
+    
+
+    
+    <string name="pluslog">+log</string>
+    <string name="add">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="menu_delete">Delete Log</string>
+    <string name="menu_share">Share Log</string>
+    <string name="menu_edit">Edit Log</string>
+    
+    <string name="recents">RECENT LOGS</string>
+    <string name="listalls">ALL LOGS</string>
+    <string name="search">SEARCH</string>
+    <string name="searchbutton">Search</string>
+    <string name="search_tag">Enter #tags seperated by space</string>
+    <string name="description_logo">button</string>
+    <string name="myClickHandler">myClickHandler</string>
+    <string name="enter">Enter your log&#8230;</string>
+	<string name="entertitle">Enter your title&#8230;</string>
+	
+	
+	
+	<string name="info_title">ABOUT</string>
+	<string name="info_desc1">A fun but functional app for helping you keep tab on your diverse activities - hashLog.</string>
+	<string name="info_desc2">Based on the universal tag phenomena, this app uses hashTag(#) to categorize your logs for seamless access. Play around. Have fun.</string>
+	<string name="info_desc3">&#169; Ganz7 2012.</string>
+	<string name="info_desc4">Contact : ganz7.in.</string>
+	
+	<string name="info_explore">hashLog #explore</string>
+	
+	<string name="none"></string>
+</resources>

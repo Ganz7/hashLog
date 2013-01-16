@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ganz7.hash.view.DashboardLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+        
+        <ImageView
+            	android:id="@+id/imageview1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:contentDescription="@string/description_logo"
+            	android:onClick="myClickHandler"
+            	android:src="@drawable/icon_new"/>
+        <ImageView
+    				android:id="@+id/imageview2"
+   					android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:src="@drawable/icon_listall"
+    				android:onClick="myClickHandler"
+    				android:contentDescription="@string/description_logo" />
+        <ImageView
+    				android:id="@+id/imageview3"
+   					android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:onClick="myClickHandler"
+    				android:contentDescription="@string/description_logo"
+    				android:src="@drawable/icon_search" />
+        
+        <ImageView
+    				android:id="@+id/imageview4"
+   					android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:src="@drawable/icon_tag"
+    				android:onClick="myClickHandler"
+    				android:contentDescription="@string/description_logo" />
+        
+        
+        
+        
+    </ganz7.hash.view.DashboardLayout>
+
+</LinearLayout>

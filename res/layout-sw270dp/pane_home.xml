@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <fragment
+        android:id="@+id/listFragment"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        
+        class="ganz7.hash.paneview.TagListFragment" >
+        <!-- android:layout_marginTop="?android:attr/actionBarSize" -->
+</fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="ganz7.hash.paneview.DetailFragment" >
+
+        <!-- Preview: layout=@layout/details -->
+    </fragment>
+</LinearLayout>

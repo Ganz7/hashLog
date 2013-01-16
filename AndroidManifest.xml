@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ganz7.main.activity"
+    android:versionCode="3"
+    android:versionName="1.02" >
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="15"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/> 
+	<supports-screens
+          android:largeScreens="true"
+          android:normalScreens="true"
+          android:smallScreens="true"
+          android:resizeable="true"
+          android:xlargeScreens="true"
+          android:anyDensity="true" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@style/Theme.Sherlock.Light">
+        <activity
+            android:name=".HashLogActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+        
+        
+        <activity android:name="InfoActivity"></activity>
+        
+        <activity android:name="ganz7.hash.view.ListAllActivity"></activity>
+        <activity android:name="ganz7.hash.view.EditLogActivity"></activity>
+        <activity android:name="ganz7.hash.view.RecentsActivity"></activity>
+        <activity android:name="ganz7.hash.view.CreateLogActivity"></activity>
+        <activity android:name="ganz7.hash.view.SearchActivity"></activity>
+        
+        <activity android:name="ganz7.hash.paneview.PaneHomeActivity"></activity>
+        <activity android:name="ganz7.hash.paneview.DetailActivity"></activity>
+       
+    </application>
+
+</manifest>

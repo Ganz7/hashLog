@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pluslog"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp" 
+        android:textColor="#2FA2C4"/>
+
+    <Button
+        android:id="@+id/addhash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:onClick="@string/myClickHandler"
+        android:text="@string/hash" />
+
+    </RelativeLayout>
+    
+    <EditText
+        android:id="@+id/logmake"
+        android:maxWidth="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3695BA"
+        android:hint="@string/enter" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    <Button
+        android:id="@+id/cancellog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" 
+        android:onClick="@string/myClickHandler"/>
+    <Button
+        
+        android:id="@+id/addlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_toRightOf="@+id/cancellog" 
+        android:onClick="@string/myClickHandler"/>
+    
+	</RelativeLayout>
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/lastModified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/none"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:padding="5dp" 
+        android:textColor="#2FA2C4"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
